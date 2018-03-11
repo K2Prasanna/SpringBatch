@@ -1,1 +1,8 @@
 https://github.com/eswaribala/rps_cts_springbatch_2018
+
+Endpoint: A: address B: binding C: contract
+
+producer endpoint ------>message channel (pipe) ---->consumer endpoint
+message channel can monitor the messages
+
+						
