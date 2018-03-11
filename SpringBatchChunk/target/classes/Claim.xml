@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<claim>
+		<claimId>1</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+	<claim>
+		<claimId>2</claimId>
+		<doc>2018/02/01</doc>
+		<amount>6000</amount>
+		<policyHolderName>PQO</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>3</claimId>
+		<doc>2018/01/03</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABN</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>4</claimId>
+		<doc>2018/04/01</doc>
+		<amount>6050</amount>
+		<policyHolderName>POGH</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>5</claimId>
+		<doc>2018/06/01</doc>
+		<amount>800</amount>
+		<policyHolderName>THGH</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>6</claimId>
+		<doc>2018/07/01</doc>
+		<amount>1500</amount>
+		<policyHolderName>ABNH</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>7</claimId>
+		<doc>2018/05/01</doc>
+		<amount>1070</amount>
+		<policyHolderName>ABD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>8</claimId>
+		<doc>2018/01/31</doc>
+		<amount>1040</amount>
+		<policyHolderName>ABGN</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>9</claimId>
+		<doc>2018/01/01</doc>
+		<amount>10578</amount>
+		<policyHolderName>BCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>10</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1035</amount>
+		<policyHolderName>ABD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>11</claimId>
+		<doc>2018/06/01</doc>
+		<amount>1400</amount>
+		<policyHolderName>ABBN</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>12</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>13</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>14</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>15</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>16</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>17</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>18</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>19</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+	<claim>
+		<claimId>20</claimId>
+		<doc>2018/01/01</doc>
+		<amount>1000</amount>
+		<policyHolderName>ABCD</policyHolderName>
+	</claim>
+
+</data>
