@@ -2,6 +2,8 @@ https://github.com/eswaribala/rps_cts_springbatch_2018
 
 https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-multithreading-example/
 
+https://github.com/ghillert/spring-batch-integration-sample
+
 Endpoint: A: address B: binding C: contract
 
 producer endpoint ------>message channel (pipe) ---->consumer endpoint
