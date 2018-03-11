@@ -1,5 +1,7 @@
 https://github.com/eswaribala/rps_cts_springbatch_2018
 
+https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-multithreading-example/
+
 Endpoint: A: address B: binding C: contract
 
 producer endpoint ------>message channel (pipe) ---->consumer endpoint
@@ -18,3 +20,10 @@ ExecutorChannel(subscriver chanel)/non-blocking/only deliver message/point to po
 Priority channel (Queue channel with priority)
 Rendezvous Channel/pollable chanel (blocking Queue channel with zero capacity)
 
+Publish and subscribe (one producer and many consumers)
+publish subscribe channel (parallel processing using task executors)
+
+Temporary channels (not long leaving subscribale channel)
+
+API gateway e.g., APIGEE, amazon API gateway: (uses temprorary channels)
+services that provide services for business applications such as throttling, connectivity, scaling, monitoring, security
