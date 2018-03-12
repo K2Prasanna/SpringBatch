@@ -17,6 +17,10 @@ https://docs.spring.io/spring-batch/trunk/reference/html/scalability.html
 https://tech.cars.com/implementing-and-scaling-a-pipe-and-filter-architecture-with-spring-batch-part-1-1f5b057a48d9
 
 
+https://www.mkyong.com/spring-boot/spring-boot-deploy-war-file-to-tomcat/
+
+
+
 skipping -> fault tolerence
 
 Endpoint: A: address B: binding C: contract
