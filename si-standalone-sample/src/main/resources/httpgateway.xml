@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-http="http://www.springframework.org/schema/integration/http"
+	xsi:schemaLocation="http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/integration/http http://www.springframework.org/schema/integration/http/spring-integration-http.xsd">
+
+	<int:inbound-channel-adapter channel="quakeinfotrigger.channel" expression="'test'">
+		<int:poller fixed-delay="60000"></int:poller>
+	</int:inbound-channel-adapter>
+	
+	<int:channel id="quakeinfo.channel">
+		<int:queue capacity="10"/>
+	</int:channel>
+
+	<int:channel id="quakeinfotrigger.channel"></int:channel>	
+
+	<int-http:outbound-gateway id="quakerHttpGateway"
+	    request-channel="quakeinfotrigger.channel"
+	    url="https://jsonplaceholder.typicode.com/users"
+	    http-method="GET"
+	    expected-response-type="java.lang.String"
+	    charset="UTF-8"
+	    reply-timeout="5000"
+	    reply-channel="quakeinfo.channel">	    
+	</int-http:outbound-gateway>
+	
+	<int:logging-channel-adapter id="messageLogger" log-full-message="true" channel="quakeinfotrigger.channel" level="ERROR">
+		<!--  int:poller fixed-delay="5000" ></int:poller -->
+	</int:logging-channel-adapter>
+	
+	<int:logging-channel-adapter id="messageLogger2" log-full-message="true" channel="quakeinfo.channel" level="ERROR">
+		<int:poller fixed-delay="5000" ></int:poller>
+	</int:logging-channel-adapter>
+	
+
+</beans>
