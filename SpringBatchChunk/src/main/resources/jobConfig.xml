@@ -161,9 +161,7 @@
 				</property>
 				<property name="fieldSetMapper">
 				<bean class="org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper">
-				<property name="prototypeBeanName">
-				<bean class="com.cts.hc.models.Claim">
-				</bean>
+				<property name="targetType" value="com.cts.hc.models.Claim">
 				</property>
 				</bean>
 				</property>
