@@ -14,6 +14,8 @@ https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-3-skip-
 
 https://docs.spring.io/spring-batch/trunk/reference/html/scalability.html
 
+https://tech.cars.com/implementing-and-scaling-a-pipe-and-filter-architecture-with-spring-batch-part-1-1f5b057a48d9
+
 
 skipping -> fault tolerence
 
